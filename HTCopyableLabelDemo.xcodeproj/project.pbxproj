@@ -1,0 +1,306 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D20BF0E179FEC7E0093BA0D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D20BF0D179FEC7E0093BA0D /* UIKit.framework */; };
+		8D20BF10179FEC7E0093BA0D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D20BF0F179FEC7E0093BA0D /* Foundation.framework */; };
+		8D20BF12179FEC7E0093BA0D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D20BF11179FEC7E0093BA0D /* CoreGraphics.framework */; };
+		8D20BF18179FEC7E0093BA0D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8D20BF16179FEC7E0093BA0D /* InfoPlist.strings */; };
+		8D20BF1A179FEC7E0093BA0D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D20BF19179FEC7E0093BA0D /* main.m */; };
+		8D20BF1E179FEC7E0093BA0D /* HTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D20BF1D179FEC7E0093BA0D /* HTAppDelegate.m */; };
+		8D20BF20179FEC7E0093BA0D /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D20BF1F179FEC7E0093BA0D /* Default.png */; };
+		8D20BF22179FEC7E0093BA0D /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D20BF21179FEC7E0093BA0D /* Default@2x.png */; };
+		8D20BF24179FEC7E0093BA0D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D20BF23179FEC7E0093BA0D /* Default-568h@2x.png */; };
+		8D20BF27179FEC7E0093BA0D /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D20BF25179FEC7E0093BA0D /* MainStoryboard.storyboard */; };
+		8D20BF2A179FEC7E0093BA0D /* HTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D20BF29179FEC7E0093BA0D /* HTViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8D20BF0A179FEC7E0093BA0D /* HTCopyableLabelDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HTCopyableLabelDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D20BF0D179FEC7E0093BA0D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8D20BF0F179FEC7E0093BA0D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8D20BF11179FEC7E0093BA0D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8D20BF15179FEC7E0093BA0D /* HTCopyableLabelDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HTCopyableLabelDemo-Info.plist"; sourceTree = "<group>"; };
+		8D20BF17179FEC7E0093BA0D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8D20BF19179FEC7E0093BA0D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8D20BF1B179FEC7E0093BA0D /* HTCopyableLabelDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HTCopyableLabelDemo-Prefix.pch"; sourceTree = "<group>"; };
+		8D20BF1C179FEC7E0093BA0D /* HTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HTAppDelegate.h; sourceTree = "<group>"; };
+		8D20BF1D179FEC7E0093BA0D /* HTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTAppDelegate.m; sourceTree = "<group>"; };
+		8D20BF1F179FEC7E0093BA0D /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		8D20BF21179FEC7E0093BA0D /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		8D20BF23179FEC7E0093BA0D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		8D20BF26179FEC7E0093BA0D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		8D20BF28179FEC7E0093BA0D /* HTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HTViewController.h; sourceTree = "<group>"; };
+		8D20BF29179FEC7E0093BA0D /* HTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D20BF07179FEC7E0093BA0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D20BF0E179FEC7E0093BA0D /* UIKit.framework in Frameworks */,
+				8D20BF10179FEC7E0093BA0D /* Foundation.framework in Frameworks */,
+				8D20BF12179FEC7E0093BA0D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8D20BF01179FEC7E0093BA0D = {
+			isa = PBXGroup;
+			children = (
+				8D20BF13179FEC7E0093BA0D /* HTCopyableLabelDemo */,
+				8D20BF0C179FEC7E0093BA0D /* Frameworks */,
+				8D20BF0B179FEC7E0093BA0D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8D20BF0B179FEC7E0093BA0D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D20BF0A179FEC7E0093BA0D /* HTCopyableLabelDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8D20BF0C179FEC7E0093BA0D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8D20BF0D179FEC7E0093BA0D /* UIKit.framework */,
+				8D20BF0F179FEC7E0093BA0D /* Foundation.framework */,
+				8D20BF11179FEC7E0093BA0D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8D20BF13179FEC7E0093BA0D /* HTCopyableLabelDemo */ = {
+			isa = PBXGroup;
+			children = (
+				8D20BF1C179FEC7E0093BA0D /* HTAppDelegate.h */,
+				8D20BF1D179FEC7E0093BA0D /* HTAppDelegate.m */,
+				8D20BF25179FEC7E0093BA0D /* MainStoryboard.storyboard */,
+				8D20BF28179FEC7E0093BA0D /* HTViewController.h */,
+				8D20BF29179FEC7E0093BA0D /* HTViewController.m */,
+				8D20BF14179FEC7E0093BA0D /* Supporting Files */,
+			);
+			path = HTCopyableLabelDemo;
+			sourceTree = "<group>";
+		};
+		8D20BF14179FEC7E0093BA0D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8D20BF15179FEC7E0093BA0D /* HTCopyableLabelDemo-Info.plist */,
+				8D20BF16179FEC7E0093BA0D /* InfoPlist.strings */,
+				8D20BF19179FEC7E0093BA0D /* main.m */,
+				8D20BF1B179FEC7E0093BA0D /* HTCopyableLabelDemo-Prefix.pch */,
+				8D20BF1F179FEC7E0093BA0D /* Default.png */,
+				8D20BF21179FEC7E0093BA0D /* Default@2x.png */,
+				8D20BF23179FEC7E0093BA0D /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D20BF09179FEC7E0093BA0D /* HTCopyableLabelDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D20BF2D179FEC7E0093BA0D /* Build configuration list for PBXNativeTarget "HTCopyableLabelDemo" */;
+			buildPhases = (
+				8D20BF06179FEC7E0093BA0D /* Sources */,
+				8D20BF07179FEC7E0093BA0D /* Frameworks */,
+				8D20BF08179FEC7E0093BA0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HTCopyableLabelDemo;
+			productName = HTCopyableLabelDemo;
+			productReference = 8D20BF0A179FEC7E0093BA0D /* HTCopyableLabelDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8D20BF02179FEC7E0093BA0D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = HT;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = HotelTonight;
+			};
+			buildConfigurationList = 8D20BF05179FEC7E0093BA0D /* Build configuration list for PBXProject "HTCopyableLabelDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8D20BF01179FEC7E0093BA0D;
+			productRefGroup = 8D20BF0B179FEC7E0093BA0D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D20BF09179FEC7E0093BA0D /* HTCopyableLabelDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D20BF08179FEC7E0093BA0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D20BF18179FEC7E0093BA0D /* InfoPlist.strings in Resources */,
+				8D20BF20179FEC7E0093BA0D /* Default.png in Resources */,
+				8D20BF22179FEC7E0093BA0D /* Default@2x.png in Resources */,
+				8D20BF24179FEC7E0093BA0D /* Default-568h@2x.png in Resources */,
+				8D20BF27179FEC7E0093BA0D /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D20BF06179FEC7E0093BA0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D20BF1A179FEC7E0093BA0D /* main.m in Sources */,
+				8D20BF1E179FEC7E0093BA0D /* HTAppDelegate.m in Sources */,
+				8D20BF2A179FEC7E0093BA0D /* HTViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8D20BF16179FEC7E0093BA0D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D20BF17179FEC7E0093BA0D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8D20BF25179FEC7E0093BA0D /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D20BF26179FEC7E0093BA0D /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8D20BF2B179FEC7E0093BA0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8D20BF2C179FEC7E0093BA0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8D20BF2E179FEC7E0093BA0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HTCopyableLabelDemo/HTCopyableLabelDemo-Prefix.pch";
+				INFOPLIST_FILE = "HTCopyableLabelDemo/HTCopyableLabelDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8D20BF2F179FEC7E0093BA0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HTCopyableLabelDemo/HTCopyableLabelDemo-Prefix.pch";
+				INFOPLIST_FILE = "HTCopyableLabelDemo/HTCopyableLabelDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8D20BF05179FEC7E0093BA0D /* Build configuration list for PBXProject "HTCopyableLabelDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D20BF2B179FEC7E0093BA0D /* Debug */,
+				8D20BF2C179FEC7E0093BA0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D20BF2D179FEC7E0093BA0D /* Build configuration list for PBXNativeTarget "HTCopyableLabelDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D20BF2E179FEC7E0093BA0D /* Debug */,
+				8D20BF2F179FEC7E0093BA0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8D20BF02179FEC7E0093BA0D /* Project object */;
+}
