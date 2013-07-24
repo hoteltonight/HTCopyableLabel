@@ -18,6 +18,8 @@
 		8D20BF24179FEC7E0093BA0D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D20BF23179FEC7E0093BA0D /* Default-568h@2x.png */; };
 		8D20BF27179FEC7E0093BA0D /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D20BF25179FEC7E0093BA0D /* MainStoryboard.storyboard */; };
 		8D20BF2A179FEC7E0093BA0D /* HTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D20BF29179FEC7E0093BA0D /* HTViewController.m */; };
+		8D20BF37179FF1710093BA0D /* HTCopyableLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D20BF36179FF1710093BA0D /* HTCopyableLabel.m */; };
+		8D85CB6E17A00065008C14D1 /* HTPasteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D85CB6D17A00065008C14D1 /* HTPasteViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,10 @@
 		8D20BF26179FEC7E0093BA0D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		8D20BF28179FEC7E0093BA0D /* HTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HTViewController.h; sourceTree = "<group>"; };
 		8D20BF29179FEC7E0093BA0D /* HTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTViewController.m; sourceTree = "<group>"; };
+		8D20BF35179FF1710093BA0D /* HTCopyableLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTCopyableLabel.h; sourceTree = "<group>"; };
+		8D20BF36179FF1710093BA0D /* HTCopyableLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTCopyableLabel.m; sourceTree = "<group>"; };
+		8D85CB6C17A00065008C14D1 /* HTPasteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTPasteViewController.h; sourceTree = "<group>"; };
+		8D85CB6D17A00065008C14D1 /* HTPasteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTPasteViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,11 +89,8 @@
 		8D20BF13179FEC7E0093BA0D /* HTCopyableLabelDemo */ = {
 			isa = PBXGroup;
 			children = (
-				8D20BF1C179FEC7E0093BA0D /* HTAppDelegate.h */,
-				8D20BF1D179FEC7E0093BA0D /* HTAppDelegate.m */,
-				8D20BF25179FEC7E0093BA0D /* MainStoryboard.storyboard */,
-				8D20BF28179FEC7E0093BA0D /* HTViewController.h */,
-				8D20BF29179FEC7E0093BA0D /* HTViewController.m */,
+				8D20BF33179FECCF0093BA0D /* HTCopyableLabel */,
+				8D20BF34179FECDC0093BA0D /* Demo */,
 				8D20BF14179FEC7E0093BA0D /* Supporting Files */,
 			);
 			path = HTCopyableLabelDemo;
@@ -105,6 +108,29 @@
 				8D20BF23179FEC7E0093BA0D /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8D20BF33179FECCF0093BA0D /* HTCopyableLabel */ = {
+			isa = PBXGroup;
+			children = (
+				8D20BF35179FF1710093BA0D /* HTCopyableLabel.h */,
+				8D20BF36179FF1710093BA0D /* HTCopyableLabel.m */,
+			);
+			name = HTCopyableLabel;
+			sourceTree = "<group>";
+		};
+		8D20BF34179FECDC0093BA0D /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				8D20BF1C179FEC7E0093BA0D /* HTAppDelegate.h */,
+				8D20BF1D179FEC7E0093BA0D /* HTAppDelegate.m */,
+				8D20BF25179FEC7E0093BA0D /* MainStoryboard.storyboard */,
+				8D20BF28179FEC7E0093BA0D /* HTViewController.h */,
+				8D20BF29179FEC7E0093BA0D /* HTViewController.m */,
+				8D85CB6C17A00065008C14D1 /* HTPasteViewController.h */,
+				8D85CB6D17A00065008C14D1 /* HTPasteViewController.m */,
+			);
+			name = Demo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,6 +203,8 @@
 				8D20BF1A179FEC7E0093BA0D /* main.m in Sources */,
 				8D20BF1E179FEC7E0093BA0D /* HTAppDelegate.m in Sources */,
 				8D20BF2A179FEC7E0093BA0D /* HTViewController.m in Sources */,
+				8D20BF37179FF1710093BA0D /* HTCopyableLabel.m in Sources */,
+				8D85CB6E17A00065008C14D1 /* HTPasteViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +327,7 @@
 				8D20BF2F179FEC7E0093BA0D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
