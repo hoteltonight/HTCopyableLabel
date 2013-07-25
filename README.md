@@ -4,7 +4,7 @@ HTCopyableLabel
 
 ## Overview
 
-HTCopyableLabel is a subclass of UILabel that, upon long press, presents a UIMenuController with an option to Copy its text.
+HTCopyableLabel is a subclass of UILabel that makes it easy to allow users to copy a label's text.
 
 <img src="https://raw.github.com/hoteltonight/HTCopyableLabel/master/demo.gif" alt="HotelTonight" title="HTAutocompleteTextField in action" style="display:block; margin: 10px auto 30px auto; align:center">
 
