@@ -6,8 +6,6 @@
 //  Copyright (c) 2013 Hotel Tonight. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
-
 @class HTCopyableLabel;
 
 @protocol HTCopyableLabelDelegate <NSObject>
