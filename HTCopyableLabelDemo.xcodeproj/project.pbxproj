@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8D17627B17A18322004A78E7 /* HTCopyableLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D17627A17A18322004A78E7 /* HTCopyableLabel.m */; };
 		8D20BF0E179FEC7E0093BA0D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D20BF0D179FEC7E0093BA0D /* UIKit.framework */; };
 		8D20BF10179FEC7E0093BA0D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D20BF0F179FEC7E0093BA0D /* Foundation.framework */; };
 		8D20BF12179FEC7E0093BA0D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D20BF11179FEC7E0093BA0D /* CoreGraphics.framework */; };
@@ -18,11 +19,12 @@
 		8D20BF24179FEC7E0093BA0D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D20BF23179FEC7E0093BA0D /* Default-568h@2x.png */; };
 		8D20BF27179FEC7E0093BA0D /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D20BF25179FEC7E0093BA0D /* MainStoryboard.storyboard */; };
 		8D20BF2A179FEC7E0093BA0D /* HTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D20BF29179FEC7E0093BA0D /* HTViewController.m */; };
-		8D20BF37179FF1710093BA0D /* HTCopyableLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D20BF36179FF1710093BA0D /* HTCopyableLabel.m */; };
 		8D85CB6E17A00065008C14D1 /* HTPasteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D85CB6D17A00065008C14D1 /* HTPasteViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8D17627917A18322004A78E7 /* HTCopyableLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTCopyableLabel.h; sourceTree = "<group>"; };
+		8D17627A17A18322004A78E7 /* HTCopyableLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTCopyableLabel.m; sourceTree = "<group>"; };
 		8D20BF0A179FEC7E0093BA0D /* HTCopyableLabelDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HTCopyableLabelDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D20BF0D179FEC7E0093BA0D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		8D20BF0F179FEC7E0093BA0D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -39,8 +41,6 @@
 		8D20BF26179FEC7E0093BA0D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		8D20BF28179FEC7E0093BA0D /* HTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HTViewController.h; sourceTree = "<group>"; };
 		8D20BF29179FEC7E0093BA0D /* HTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTViewController.m; sourceTree = "<group>"; };
-		8D20BF35179FF1710093BA0D /* HTCopyableLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTCopyableLabel.h; sourceTree = "<group>"; };
-		8D20BF36179FF1710093BA0D /* HTCopyableLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTCopyableLabel.m; sourceTree = "<group>"; };
 		8D85CB6C17A00065008C14D1 /* HTPasteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTPasteViewController.h; sourceTree = "<group>"; };
 		8D85CB6D17A00065008C14D1 /* HTPasteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTPasteViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -113,8 +113,8 @@
 		8D20BF33179FECCF0093BA0D /* HTCopyableLabel */ = {
 			isa = PBXGroup;
 			children = (
-				8D20BF35179FF1710093BA0D /* HTCopyableLabel.h */,
-				8D20BF36179FF1710093BA0D /* HTCopyableLabel.m */,
+				8D17627917A18322004A78E7 /* HTCopyableLabel.h */,
+				8D17627A17A18322004A78E7 /* HTCopyableLabel.m */,
 			);
 			name = HTCopyableLabel;
 			sourceTree = "<group>";
@@ -200,10 +200,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D17627B17A18322004A78E7 /* HTCopyableLabel.m in Sources */,
 				8D20BF1A179FEC7E0093BA0D /* main.m in Sources */,
 				8D20BF1E179FEC7E0093BA0D /* HTAppDelegate.m in Sources */,
 				8D20BF2A179FEC7E0093BA0D /* HTViewController.m in Sources */,
-				8D20BF37179FF1710093BA0D /* HTCopyableLabel.m in Sources */,
 				8D85CB6E17A00065008C14D1 /* HTPasteViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

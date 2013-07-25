@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>7344E016-79EB-4481-BCC9-EF3074B36CBD</string>
+	<key>IDESourceControlProjectName</key>
+	<string>HTCopyableLabelDemo</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>7697120B-E0AC-4D9A-BE25-A19067E1FF27</key>
+		<string>ssh://github.com/hoteltonight/HTCopyableLabel.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>HTCopyableLabelDemo.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>7697120B-E0AC-4D9A-BE25-A19067E1FF27</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/hoteltonight/HTCopyableLabel.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>7697120B-E0AC-4D9A-BE25-A19067E1FF27</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>7697120B-E0AC-4D9A-BE25-A19067E1FF27</string>
+			<key>IDESourceControlWCCName</key>
+			<string>HTCopyableLabelDemo</string>
+		</dict>
+	</array>
+</dict>
+</plist>
