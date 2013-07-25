@@ -8,7 +8,7 @@ HTCopyableLabel is a subclass of UILabel that makes it easy to allow users to co
 
 <img src="https://raw.github.com/hoteltonight/HTCopyableLabel/master/demo.gif" alt="HotelTonight" title="HTAutocompleteTextField in action" style="display:block; margin: 10px auto 30px auto; align:center">
 
-Read the accompanying [blog post](http://engineering.hoteltonight.com/htcopyablelabel/) on the [HotelTonight Engineering Blog](http://engineering.hoteltonight.com/).  For an excellent explanation how copying on a UILabel is implemented, be sure to read [UIMenuController](http://nshipster.com/uimenucontroller/) by @mattt.
+Read the accompanying [blog post](http://engineering.hoteltonight.com/htcopyablelabel/) on the [HotelTonight Engineering Blog](http://engineering.hoteltonight.com/).  For an excellent explanation how copying on a UILabel is implemented, be sure to read [UIMenuController](http://nshipster.com/uimenucontroller/) on [NSHipster](http://nshipster.com).
 
 # Usage
 
