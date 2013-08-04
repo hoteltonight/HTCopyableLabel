@@ -57,7 +57,7 @@ If you wish to specify which string is copied to the pasteboard, implement the f
 
 ## Use it? Love/hate it?
 
-Tweet the author @jonsibs, and check out HotelTonight's engineering blog: http://engineering.hoteltonight.com
+Tweet the author [@jonsibs](https://twitter.com/jonsibs), and check out HotelTonight's engineering blog: http://engineering.hoteltonight.com
 
 Also, check out HotelTonight's other iOS open source:
 * https://github.com/hoteltonight/HTAutocompleteTextField
