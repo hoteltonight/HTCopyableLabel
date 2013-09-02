@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8D17627B17A18322004A78E7 /* HTCopyableLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D17627A17A18322004A78E7 /* HTCopyableLabel.m */; };
+		48759F5F17D47017001FC123 /* HTCopyableLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 48759F5E17D47017001FC123 /* HTCopyableLabel.m */; };
 		8D20BF0E179FEC7E0093BA0D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D20BF0D179FEC7E0093BA0D /* UIKit.framework */; };
 		8D20BF10179FEC7E0093BA0D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D20BF0F179FEC7E0093BA0D /* Foundation.framework */; };
 		8D20BF12179FEC7E0093BA0D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D20BF11179FEC7E0093BA0D /* CoreGraphics.framework */; };
@@ -23,8 +23,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8D17627917A18322004A78E7 /* HTCopyableLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTCopyableLabel.h; sourceTree = "<group>"; };
-		8D17627A17A18322004A78E7 /* HTCopyableLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTCopyableLabel.m; sourceTree = "<group>"; };
+		48759F5D17D47017001FC123 /* HTCopyableLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTCopyableLabel.h; sourceTree = "<group>"; };
+		48759F5E17D47017001FC123 /* HTCopyableLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTCopyableLabel.m; sourceTree = "<group>"; };
 		8D20BF0A179FEC7E0093BA0D /* HTCopyableLabelDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HTCopyableLabelDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D20BF0D179FEC7E0093BA0D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		8D20BF0F179FEC7E0093BA0D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -59,9 +59,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		48759F6017D4701B001FC123 /* HTCopyableLabel */ = {
+			isa = PBXGroup;
+			children = (
+				48759F5D17D47017001FC123 /* HTCopyableLabel.h */,
+				48759F5E17D47017001FC123 /* HTCopyableLabel.m */,
+			);
+			name = HTCopyableLabel;
+			sourceTree = "<group>";
+		};
 		8D20BF01179FEC7E0093BA0D = {
 			isa = PBXGroup;
 			children = (
+				48759F6017D4701B001FC123 /* HTCopyableLabel */,
 				8D20BF13179FEC7E0093BA0D /* HTCopyableLabelDemo */,
 				8D20BF0C179FEC7E0093BA0D /* Frameworks */,
 				8D20BF0B179FEC7E0093BA0D /* Products */,
@@ -89,7 +99,6 @@
 		8D20BF13179FEC7E0093BA0D /* HTCopyableLabelDemo */ = {
 			isa = PBXGroup;
 			children = (
-				8D20BF33179FECCF0093BA0D /* HTCopyableLabel */,
 				8D20BF34179FECDC0093BA0D /* Demo */,
 				8D20BF14179FEC7E0093BA0D /* Supporting Files */,
 			);
@@ -108,15 +117,6 @@
 				8D20BF23179FEC7E0093BA0D /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		8D20BF33179FECCF0093BA0D /* HTCopyableLabel */ = {
-			isa = PBXGroup;
-			children = (
-				8D17627917A18322004A78E7 /* HTCopyableLabel.h */,
-				8D17627A17A18322004A78E7 /* HTCopyableLabel.m */,
-			);
-			name = HTCopyableLabel;
 			sourceTree = "<group>";
 		};
 		8D20BF34179FECDC0093BA0D /* Demo */ = {
@@ -200,11 +200,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D17627B17A18322004A78E7 /* HTCopyableLabel.m in Sources */,
 				8D20BF1A179FEC7E0093BA0D /* main.m in Sources */,
 				8D20BF1E179FEC7E0093BA0D /* HTAppDelegate.m in Sources */,
 				8D20BF2A179FEC7E0093BA0D /* HTViewController.m in Sources */,
 				8D85CB6E17A00065008C14D1 /* HTPasteViewController.m in Sources */,
+				48759F5F17D47017001FC123 /* HTCopyableLabel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
