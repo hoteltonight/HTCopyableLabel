@@ -8,5 +8,7 @@ Pod::Spec.new do |s|
   s.author       = { "Jonathan Sibley" => "jonsibley@gmail.com" }
   s.source       = { :git => "https://github.com/hoteltonight/HTCopyableLabel.git", :tag => "0.0.5" }
   s.source_files = 'HTCopyableLabel.{h,m}'
+  s.platform     = :ios
+  s.ios.deployment_target = '5.0'
   s.requires_arc = true
 end
