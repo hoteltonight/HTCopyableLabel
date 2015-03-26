@@ -15,7 +15,7 @@
 @optional
 - (NSString *)stringToCopyForCopyableLabel:(HTCopyableLabel *)copyableLabel;
 - (CGRect)copyMenuTargetRectInCopyableLabelCoordinates:(HTCopyableLabel *)copyableLabel;
-
+- (void)copyPressed:(HTCopyableLabel *)copyableLabel;
 @end
 
 @interface HTCopyableLabel : UILabel
