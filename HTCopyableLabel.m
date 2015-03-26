@@ -124,6 +124,7 @@
         }
 
         [pasteboard setString:stringToCopy];
+        [self.copyableLabelDelegate copyPressed: self];
     }
 }
 
