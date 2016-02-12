@@ -14,10 +14,10 @@ Read the accompanying [blog post](http://engineering.hoteltonight.com/htcopyable
 
 ## Installation
 
-### With Cocoapods:
+### With CocoaPods:
 * Add `pod 'HTCopyableLabel'` to your `Podfile`
 
-### Without Cocoapods:
+### Without CocoaPods:
 Manually add the following files into your project:
 * `HTCopyableLabel.m`
 * `HTCopyableLabel.h`
