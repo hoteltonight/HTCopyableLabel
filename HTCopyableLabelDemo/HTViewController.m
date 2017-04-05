@@ -68,8 +68,7 @@
         // The UIMenuController will appear close to container, indicating all of its contents will be copied
         rect = [self.labelContainer1 convertRect:self.labelContainer1.bounds toView:copyableLabel];
     }
-    else if (copyableLabel == self.label5)
-    {
+    else {
         // The UIMenuController will appear close to the label itself
         rect = copyableLabel.bounds;
     }
